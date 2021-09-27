@@ -89,6 +89,13 @@ cliente.on('message', function(message){
     }
 });
 
+//CONTAME JULI
+cliente.on('message', function(message){
+    if (message.content.includes('-play')) {
+        message.reply('Ese es un temuco amor pero no lo tengo 🙁🙁');
+    }
+});
+
 function numRand(){
     var random;
     do {
