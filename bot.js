@@ -81,6 +81,8 @@ cliente.on('message', function(message){
     }
 });
 
+//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
+
 //CONTAME JULI
 cliente.on('message', function(message){
     if (message.content === 'Contame Juli') {
